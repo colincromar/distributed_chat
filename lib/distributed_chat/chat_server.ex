@@ -57,7 +57,6 @@ defmodule DistributedChat.ChatServer do
   @impl true
   def handle_cast({:replicate, message}, state) do
     # Don’t replicate further or we’d get an infinite loop
-    # TODO - ask if this is outdated with enum.each
     new_state = state ++ [message]
     {:noreply, new_state}
   end
