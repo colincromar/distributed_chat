@@ -146,4 +146,3 @@ If you encounter issues or have suggestions for improvements, please open an iss
 ## Acknowledgments
 
 Thank you for exploring this project! We hope it provides valuable insights into distributed systems in Elixir. Happy coding!
-# distributed_chat
